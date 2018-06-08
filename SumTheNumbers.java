@@ -4,13 +4,13 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class SumTheNumbers {
-public static void main(String[] args){
+
     private String currToken;
     private String textString;
-    private File f = new File("C:\\Users\\Branden||Desktop\\numbers.txt");
+    private File f;
     private BigInteger sum;
     
-    
+    }
     public SumTheNumbers(File f){
         this.f = f;    
     }
@@ -30,5 +30,4 @@ public static void main(String[] args){
         return this.sum;
     }
     
- }
-}
+ 
